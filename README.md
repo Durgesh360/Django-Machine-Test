@@ -19,8 +19,8 @@ This is a Django REST Framework (DRF) based API system for managing Clients, Pro
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/client_project_api.git
-cd client_project_api
+git clone https://github.com/yourusername/django-machine-test.git
+cd company
 ````
 
 ### 2. Create & Activate a Virtual Environment
