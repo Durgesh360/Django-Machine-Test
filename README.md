@@ -31,27 +31,6 @@ pip install -r requirements.txt
 
 ### 4. Configure MySQL Database
 
-Edit `settings.py`:
-
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_db_name',
-        'USER': 'your_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
-```
-
-Make sure you’ve already created this database in MySQL:
-
-```sql
-CREATE DATABASE your_db_name;
-```
-
 ### 5. Run Migrations
 
 python manage.py makemigrations
