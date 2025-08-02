@@ -18,10 +18,6 @@ This is a Django REST Framework (DRF) based API system for managing Clients, Pro
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/django-machine-test.git
-cd company
-````
 
 ### 2. Create & Activate a Virtual Environment
 
@@ -60,7 +56,3 @@ python manage.py runserver
 | GET    | `/clients/:id/`          | View client details and its projects              |
 
 ---
-
-
-Let me know if you'd like to auto-generate a `requirements.txt` now or want deployment help too.
-```
