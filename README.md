@@ -42,6 +42,20 @@ python manage.py runserver
 
 ---
 
+##  For Postman
+
+### Login at: `http://127.0.0.1:8000/admin/`
+
+### Get the auth-token using the /token/ endpoint
+
+Pass the { "username": "" , "password" : ""} in body and Retrieve the Token
+
+Pass the token inside the header for every request as Authorisation : Token <token_id>
+
+---
+
+---
+
 * Login at: `http://127.0.0.1:8000/admin/`
 * Only authenticated users can create or view projects.
 
