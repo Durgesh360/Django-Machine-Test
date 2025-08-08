@@ -65,8 +65,13 @@ As Authorization : Token <token_id>
 
 | Method | Endpoint                 | Description                                       |
 | ------ | ------------------------ | ------------------------------------------------- |
+| GET    | `/token/`                | View the Auth-token for specific user             |
+| GET    | `/clients/`              | View all client details                           |
 | GET    | `/projects/`             | View all projects assigned to logged-in user      |
 | POST   | `/clients/:id/projects/` | Create a project for a client with assigned users |
 | GET    | `/clients/:id/`          | View client details and its projects              |
+| PUT    | `/clients/:id/`          | Update client details                             |
+| PATCH  | `/clients/:id/`          | Partially Update client details                   |
+| DELETE | `/clients/:id/`          | Delete the specific client                        |
 
 ---
