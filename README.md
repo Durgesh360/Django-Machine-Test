@@ -67,6 +67,7 @@ As Authorization : Token <token_id>
 | ------ | ------------------------ | ------------------------------------------------- |
 | GET    | `/token/`                | View the Auth-token for specific user             |
 | GET    | `/clients/`              | View all client details                           |
+| POST   | `/clients/:id/`          | Create new clients                                |
 | GET    | `/projects/`             | View all projects assigned to logged-in user      |
 | POST   | `/clients/:id/projects/` | Create a project for a client with assigned users |
 | GET    | `/clients/:id/`          | View client details and its projects              |
