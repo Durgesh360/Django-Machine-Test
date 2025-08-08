@@ -44,15 +44,15 @@ python manage.py runserver
 
 ##  For Postman
 
-### Login at: `http://127.0.0.1:8000/admin/`
+### 1. Login at: `http://127.0.0.1:8000/admin/`
 
-### Get the auth-token using the /token/ endpoint
+### 2. Get the auth-token using the /token/ endpoint
 
 Pass the { "username": "" , "password" : ""} in body and Retrieve the Token
 
-Pass the token inside the header for every request as Authorisation : Token <token_id>
+### 3. Pass the token inside the header for every request 
 
----
+As Authorization : Token <token_id>
 
 ---
 
