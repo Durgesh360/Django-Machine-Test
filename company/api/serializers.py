@@ -74,4 +74,3 @@ class ProjectCreateSerializer(serializers.ModelSerializer):
         )
         project.users.set(user_ids)
         return project
-

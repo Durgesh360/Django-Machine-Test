@@ -16,10 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rest_framework.authtoken.views import obtain_auth_token
 from api.views import ClientListCreateView, ProjectListView, ClientDetailView, CreateProjectForClientView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('token/', obtain_auth_token, name='api_token_auth'),
     path('clients/', ClientListCreateView.as_view(), name='client-list-create'),
     path('clients/<int:pk>/', ClientDetailView.as_view(), name='client-detail'),
     path('projects/', ProjectListView.as_view(), name='user-projects'),
